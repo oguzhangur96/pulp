@@ -119,7 +119,7 @@ class GUROBI(LpSolver):
                 GRB.UNBOUNDED: constants.LpStatusUnbounded,
                 GRB.ITERATION_LIMIT: constants.LpStatusNotSolved,
                 GRB.NODE_LIMIT: constants.LpStatusNotSolved,
-                GRB.TIME_LIMIT: constants.LpStatusNotSolved,
+                GRB.TIME_LIMIT: constants.LpStatusOptimal,
                 GRB.SOLUTION_LIMIT: constants.LpStatusNotSolved,
                 GRB.INTERRUPTED: constants.LpStatusNotSolved,
                 GRB.NUMERIC: constants.LpStatusNotSolved,
